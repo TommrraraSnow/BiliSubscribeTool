@@ -18,3 +18,7 @@ wheels/
 
 # Configuration files
 config.toml
+
+# Log files
+logs/
+followings*
