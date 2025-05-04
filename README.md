@@ -1,6 +1,10 @@
-# Bilibili 关注工具
+# Bilibili 关注迁移工具
 
 中文 | [English](README_EN.md)
+
+本工具提供了将一个Bilibili账号的关注列表导出，并在另一个账号上直接关注的工具链。由于B站关注系统本身的限制，一次性关注过多账号可能会导致关注功能被锁定一段时间。
+
+注意：本工具虽然为MIT协议开源，但其中使用的第三方库[bilibili-api](https://github.com/Nemo2011/bilibili-api)并非MIT协议，如需商用请单独申请。
 
 ## 功能
 
