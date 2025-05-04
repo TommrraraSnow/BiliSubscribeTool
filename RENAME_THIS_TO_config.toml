@@ -1,0 +1,17 @@
+# Bilibili API 凭证和用户配置 | Bilibili API credentials and user configuration
+# 请将此文件另存为 config.toml后使用 | Please rename this file to config.toml before use
+# 请将下面的值替换为你自己的信息 | Replace the following values with your own information
+# 获取方式请参考 | See how to get credentials:
+# https://github.com/Nemo2011/bilibili-api/blob/master/docs/get_credential.md
+
+[download_credential]
+sessdata = "YOUR_SESSDATA_HERE"  # 你的 SESSDATA | Your SESSDATA cookie
+bili_jct = "YOUR_BILI_JCT_HERE"  # 你的 bili_jct | Your bili_jct cookie
+buvid3 = "YOUR_BUVID3_HERE"    # 你的 buvid3 (可选，但建议提供) | Your buvid3 cookie (optional but recommended)
+uid = 0  # 你的 Bilibili 用户 UID | Your Bilibili user UID
+
+[auto_follow_credential]
+sessdata = "YOUR_SESSDATA_HERE"  # 你的 SESSDATA | Your SESSDATA cookie
+bili_jct = "YOUR_BILI_JCT_HERE"  # 你的 bili_jct | Your bili_jct cookie
+buvid3 = "YOUR_BUVID3_HERE"    # 你的 buvid3 (可选，但建议提供) | Your buvid3 cookie (optional but recommended)
+uid = 0  # 你的 Bilibili 用户 UID | Your Bilibili user UID
